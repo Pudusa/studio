@@ -1,3 +1,142 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A modern storefront with a sale sign",
+      "imageUrl": "https://images.unsplash.com/photo-1705951495433-fe1de7c30d33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdG9yZWZyb250JTIwc2FsZXxlbnwwfHx8fDE3NTkyNjI0NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "storefront sale"
+    },
+    {
+      "id": "promo-banner-1",
+      "description": "Abstract background for promotions",
+      "imageUrl": "https://images.unsplash.com/photo-1679592098614-ae83589aa91a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMHBhdHRlcm58ZW58MHx8fHwxNzU5MTk2NTM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract pattern"
+    },
+    {
+      "id": "category-electronics",
+      "description": "A collection of modern electronic gadgets",
+      "imageUrl": "https://images.unsplash.com/photo-1690264696696-95ce83c2a3ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsYXB0b3BzJTIwc21hcnRwaG9uZXxlbnwwfHx8fDE3NTkyNjI0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptops smartphone"
+    },
+    {
+      "id": "category-home",
+      "description": "A stylish and modern living room",
+      "imageUrl": "https://images.unsplash.com/photo-1631049421570-dafb48ce5e1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsaXZpbmclMjByb29tJTIwa2l0Y2hlbnxlbnwwfHx8fDE3NTkyNjI0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "living room kitchen"
+    },
+    {
+      "id": "category-fashion",
+      "description": "Mannequins displaying the latest fashion trends",
+      "imageUrl": "https://images.unsplash.com/photo-1739773375441-e8ded0ce3605?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjbG90aGVzJTIwZmFzaGlvbnxlbnwwfHx8fDE3NTkyNjI0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clothes fashion"
+    },
+    {
+      "id": "category-books",
+      "description": "A stack of old books in a library",
+      "imageUrl": "https://images.unsplash.com/photo-1721552008286-0b839c033140?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxib29rcyUyMGxpYnJhcnl8ZW58MHx8fHwxNzU5MjQ0OTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "books library"
+    },
+    {
+      "id": "product-laptop-1",
+      "description": "A sleek, modern laptop open on a desk",
+      "imageUrl": "https://images.unsplash.com/photo-1518655048521-f130df041f66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGFwdG9wJTIwZGVza3xlbnwwfHx8fDE3NTkyNTU4NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop desk"
+    },
+    {
+      "id": "product-laptop-2",
+      "description": "Side view of a thin laptop",
+      "imageUrl": "https://images.unsplash.com/photo-1754928864131-21917af96dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYXB0b3AlMjBzaWRlfGVufDB8fHx8MTc1OTI2MjQ1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop side"
+    },
+    {
+      "id": "product-smartphone-1",
+      "description": "A modern smartphone showcasing its screen",
+      "imageUrl": "https://images.unsplash.com/photo-1653589048352-7c3b90241ae2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwc2NyZWVufGVufDB8fHx8MTc1OTI1NDcyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smartphone screen"
+    },
+    {
+      "id": "product-smartphone-2",
+      "description": "Back of a smartphone showing cameras",
+      "imageUrl": "https://images.unsplash.com/photo-1472393365320-db77a5abbecc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzbWFydHBob25lJTIwY2FtZXJhfGVufDB8fHx8MTc1OTIwMTA3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smartphone camera"
+    },
+    {
+      "id": "product-headphones-1",
+      "description": "Wireless over-ear headphones on a stand",
+      "imageUrl": "https://images.unsplash.com/photo-1646771032150-6243ff3aea4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoZWFkcGhvbmVzJTIwc3RhbmR8ZW58MHx8fHwxNzU5MjExNTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "headphones stand"
+    },
+    {
+      "id": "product-sofa-1",
+      "description": "A comfortable modern sofa in a living room",
+      "imageUrl": "https://images.unsplash.com/photo-1617972582658-45dd3162f128?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzb2ZhJTIwbGl2aW5nfGVufDB8fHx8MTc1OTI2MjQ0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sofa living"
+    },
+    {
+      "id": "product-lamp-1",
+      "description": "A stylish desk lamp",
+      "imageUrl": "https://images.unsplash.com/photo-1621447980929-6638614633c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkZXNrJTIwbGFtcHxlbnwwfHx8fDE3NTkyMzIzNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desk lamp"
+    },
+    {
+      "id": "product-tshirt-1",
+      "description": "A plain white t-shirt on a hanger",
+      "imageUrl": "https://images.unsplash.com/photo-1716541424935-e28adbd63ca3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0c2hpcnQlMjBoYW5nZXJ8ZW58MHx8fHwxNzU5MjYyNDUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tshirt hanger"
+    },
+    {
+      "id": "product-jeans-1",
+      "description": "A pair of blue jeans folded",
+      "imageUrl": "https://images.unsplash.com/photo-1589226849736-8d0e0c78e869?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqZWFucyUyMGZvbGRlZHxlbnwwfHx8fDE3NTkyNjI0NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "jeans folded"
+    },
+    {
+      "id": "product-novel-1",
+      "description": "The cover of a fantasy novel",
+      "imageUrl": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzU5MjAxNDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover"
+    },
+    {
+      "id": "product-cookbook-1",
+      "description": "A colorful cookbook open to a recipe",
+      "imageUrl": "https://images.unsplash.com/photo-1518744386442-2d48ac47a7eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb29rYm9vayUyMHJlY2lwZXxlbnwwfHx8fDE3NTkyMzA2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cookbook recipe"
+    },
+    {
+      "id": "product-camera-1",
+      "description": "A professional dslr camera",
+      "imageUrl": "https://images.unsplash.com/photo-1635197861468-995a297e26c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZHNsciUyMGNhbWVyYXxlbnwwfHx8fDE3NTkxNTQwOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dslr camera"
+    },
+    {
+      "id": "product-blender-1",
+      "description": "A kitchen blender ready to be used",
+      "imageUrl": "https://images.unsplash.com/photo-1564940735784-b15466e8dc09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxraXRjaGVuJTIwYmxlbmRlcnxlbnwwfHx8fDE3NTkxNjMxNDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kitchen blender"
+    },
+    {
+      "id": "product-sneakers-1",
+      "description": "A pair of stylish sneakers",
+      "imageUrl": "https://images.unsplash.com/photo-1494291793534-6f053ee9c31a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzbmVha2VycyUyMHBhaXJ8ZW58MHx8fHwxNzU5MjYyNDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sneakers pair"
+    },
+    {
+      "id": "product-vinyl-1",
+      "description": "A vinyl record on a turntable",
+      "imageUrl": "https://images.unsplash.com/photo-1669801158950-f663cf15298c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx2aW55bCUyMHJlY29yZHxlbnwwfHx8fDE3NTkyMTY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vinyl record"
+    },
+    {
+      "id": "user-avatar-1",
+      "description": "Avatar for a user",
+      "imageUrl": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkyMDk1OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person portrait"
+    },
+    {
+      "id": "about-us-image",
+      "description": "A diverse team working together",
+      "imageUrl": "https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZWFtJTIwb2ZmaWNlfGVufDB8fHx8MTc1OTI0MDk4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "team office"
+    }
+  ]
 }
