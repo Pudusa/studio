@@ -52,7 +52,6 @@ export default function CheckoutPage() {
             return;
         }
 
-        // 1. Insert into the 'orders' table
         const { data: orderData, error: orderError } = await supabase
             .from('orders')
             .insert({
@@ -60,8 +59,7 @@ export default function CheckoutPage() {
                 status: 'Pending',
                 customer_name: e.currentTarget.name,
                 customer_email: user.email,
-                // You can add a user_id column to your orders table to link it to the auth.users table
-                // user_id: user.id
+                user_id: user.id // <-- ¡AQUÍ ESTÁ EL CAMBIO!
             })
             .select()
             .single();
@@ -76,21 +74,18 @@ export default function CheckoutPage() {
             return;
         }
 
-        // 2. Prepare items for the 'order_items' table
         const orderItems = items.map(item => ({
             order_id: orderData.id,
             product_id: item.id,
             quantity: item.quantity,
         }));
 
-        // 3. Insert into the 'order_items' table
         const { error: itemsError } = await supabase
             .from('order_items')
             .insert(orderItems);
 
         if (itemsError) {
             console.error('Error inserting order items:', itemsError);
-            // Here you might want to delete the created order to avoid inconsistencies
             await supabase.from('orders').delete().eq('id', orderData.id);
             toast({
                 title: "Error",
